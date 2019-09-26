@@ -4,6 +4,7 @@
   "rules": {
     "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
     "react/prop-types": 2,
+    "react/require-default-props": 2,
     "no-underscore-dangle": 2,
     "import/imports-first": [2, "absolute-first"],
     "import/newline-after-import": 2,
