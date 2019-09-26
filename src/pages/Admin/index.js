@@ -1,6 +1,8 @@
 import React from "react";
 // import PropTypes from "prop-types";
 
+import { Finder } from "../../containers";
+
 class Admin extends React.Component {
   componentDidMount() {
     // code here
@@ -9,7 +11,11 @@ class Admin extends React.Component {
   }
 
   render() {
-    return <div>Admin Page</div>;
+    return (
+      <div>
+        <Finder />;
+      </div>
+    );
   }
 }
 
